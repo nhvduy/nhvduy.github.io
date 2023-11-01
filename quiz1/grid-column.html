@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        Fixed with columns
+        <div style="display: grid; border: 1px solid black; grid-template-columns: 40px 40px 40px; gap: 10px;">
+            <div style="background-color: aqua;">Col 1</div>
+            <div style="background-color: burlywood;">Col 2</div>
+            <div style="background-color: lightgreen;">Col 3</div>
+        </div>
+        Equals size columns
+        <div style="display: grid; border: 1px solid black; grid-template-columns: 1fr 1fr 1fr; gap: 10px;">
+            <div style="background-color: aqua;">Col 1</div>
+            <div style="background-color: burlywood;">Col 2</div>
+            <div style="background-color: lightgreen;">Col 3</div>
+        </div>
+        Auto size columns depending on size contents
+        <div style="border: 1px solid black; display: grid; grid-template-columns: auto auto auto; gap: 10px;">
+            <div style="background-color: aqua;">Col 1</div>
+            <div style="background-color: burlywood;">Col 2</div>
+            <div style="background-color: lightgreen;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae numquam corporis voluptatibus saepe dignissimos repellendus dolore officia, illo impedit, consequatur voluptates. Autem cupiditate fuga quas odit voluptate ipsam consequuntur minima?</div>
+            <div style="background-color: lightgreen;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem cupiditate eum soluta odio accusamus consequuntur dolores, aliquam, natus quaerat provident consectetur facilis. Exercitationem tempora maiores iusto non vel eveniet. Molestiae.</div>
+            <div style="background-color: burlywood;">Col 3</div>
+        </div>
+    </body>
+</html>

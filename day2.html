@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <style>
+            .myDiv{
+                border: 3px solid red;
+                padding: auto;
+                //border: 5px;
+                border-radius: 15px;
+                background-image: url(images/chrysanthumum.jpeg);
+            }
+        </style> -->
+    </head>
+    <body>
+        <div style>
+            <img src="images/chrysanthumum.jpeg" style="border-radius: 50%; width: 200px; height: 200px; object-fit: cover;">
+        </div>
+        <div style="padding: 40px; border: 1px solid red; justify-content: center; height: 100px;align-items: center; display: flex;">
+            <img src="images/duyvu.jpg" style="width: 100px; height: 100px;" />
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatibus rem animi quod consequatur in fugit ab labore. Iure cupiditate dolorum voluptatibus aspernatur voluptatum neque id enim libero hic veniam?</div>
+        </div>
+        Fixed width columns
+        <div style="border: 1px solid black; display: flex; gap: 10px;">
+            <div style="background-color: aqua; width: 40px;">Col 1</div>
+            <div style="background-color: burlywood; width: 40px;">Col 2</div>
+            <div style="background-color: lightgreen; width: 40px;">Col 3</div>
+        </div>
+        Equals size columns
+        <div style="border: 1px solid black; display: flex; gap: 10px;">
+            <div style="background-color: aqua; width: 40%;">Col 1</div>
+            <div style="background-color: burlywood ; width: 40%;">Col 2</div>
+            <div style="background-color: lightgreen; width: 40%;">Col 3</div>
+        </div>
+        Auto sized columns (size according to content)
+        <div style="border: 1px solid black; display: flex; gap: 10px;">
+            <div style="background-color: aqua;">Col 1</div>
+            <div style="background-color: burlywood;">Col 2</div>
+            <div style="background-color: lightgreen;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione at sunt dignissimos praesentium voluptatibus! Molestiae vitae consequuntur, repellendus dicta iusto reiciendis, ratione fugit doloribus corrupti maiores quaerat repellat maxime aliquam!</div>
+            <div style="background-color: lightgreen;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic numquam reiciendis corporis, velit dolore quidem, aliquam dignissimos reprehenderit eos soluta nam? Enim repellat expedita laboriosam saepe error dolores provident numquam!</div>
+            <div style="background-color: burlywood;">Col 3</div>
+        </div>
+        Multiple columns compress without flex wrap
+        <div style="border: 1px solid black; display: flex; gap: 10px;">
+            <div style="background-color: aqua; width: 40px;">Col 1</div>
+            <div style="background-color: burlywood; width: 40px;">Col 2</div>
+            <div style="background-color: lightgreen; width: 40px;">Col 3</div>
+            <div style="background-color: aqua; width: 40px;">Col 4</div>
+            <div style="background-color: burlywood; width: 40px;">Col 5</div>
+            <div style="background-color: lightgreen; width: 40px;">Col 6</div>
+            <div style="background-color: aqua; width: 40px;">Col 7</div>
+            <div style="background-color: burlywood; width: 40px;">Col 8</div>
+            <div style="background-color: lightgreen; width: 40px;">Col 9</div>
+        </div>
+        Multiple columns compress with flex wrap 
+        <div style="border: 1px solid black; display: flex; gap: 10px; flex-wrap: wrap;">
+            <div style="background-color: aqua; width: 40px;">Col 1</div>
+            <div style="background-color: burlywood; width: 40px;">Col 2</div>
+            <div style="background-color: lightgreen; width: 40px;">Col 3</div>
+            <div style="background-color: aqua; width: 40px;">Col 4</div>
+            <div style="background-color: burlywood; width: 40px;">Col 5</div>
+            <div style="background-color: lightgreen; width: 40px;">Col 6</div>
+            <div style="background-color: aqua; width: 40px;">Col 7</div>
+            <div style="background-color: burlywood; width: 40px;">Col 8</div>
+            <div style="background-color: lightgreen; width: 40px;">Col 9</div>
+        </div>
+    </body>
+</html>
